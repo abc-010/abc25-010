@@ -52,10 +52,12 @@
 }
 
 
-.login-button:hover {
+.login-button:hover,
+.login-button.active {
   background-color: blueviolet;
   color: white;
 }
+
 
 .navbar-toggler{
      border:none;
