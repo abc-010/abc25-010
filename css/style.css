@@ -16,7 +16,7 @@
 .navbar-brand {
   font-size: 3rem;
   font-weight: 800;
-  color: white;
+  color: blue;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -28,15 +28,57 @@
   color: black;
   font-size: 1.2rem;
   font-weight: 500;
-  margin-left: 4ram;
+  margin-left: 2rem;
+  border-bottom: 4px solid transparent;
 }
 
 .nav-item a:hover,
-.nav-item a.active {
-  color: orange;
-  border-bottom: 3x solid var(orange);
+.nav-item a.active { 
+  color: blueviolet;
+  border-bottom: 4px solid blueviolet;
 
 }
+
+/*styling button*/
+
+.login-button {
+  background-color: #198754; /* Bootstrap green */
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition:0.3s background-color;
+}
+
+
+.login-button:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.navbar-toggler{
+     border:none;
+     font-size:1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+     box-shadow:none;
+     outline:none;
+}
+  
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+
 
 
 .navbar {
