@@ -173,3 +173,11 @@
   font-weight: 600;
   text-align: center;
 }
+.plans{
+  background:transparent;
+  border-radius: 27px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px blueviolet;
+  padding: 20px;
+  transition: all 0.5s ease;
+}
