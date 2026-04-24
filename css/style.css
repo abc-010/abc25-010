@@ -97,6 +97,24 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.main-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 20px;  
+}
+.main-heading span {
+  font-size: 3rem;
+  font-weight: 400;
+  color: orange;
+  margin-bottom: 20px;  
+}
+.hero-section p {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
  /*  services content */
 
 
@@ -117,10 +135,11 @@
   
 }
 .row img {
-  width: 100%;
+  width: 65%;
   height: 200px;
   border-radius: 27px;
   margin-bottom: 1.4rem;
+  align-content:center ;
 }
 
 .row:hover {
