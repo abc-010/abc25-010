@@ -81,8 +81,6 @@
 }
 
 
-
-
 .navbar {
   border-radius: 12px;
   margin: 10px;
@@ -94,7 +92,7 @@
 .hero-section {
   background-color: none;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .main-heading {
@@ -108,15 +106,21 @@
   font-weight: 400;
   color: orange;
   margin-bottom: 20px;  
+
 }
+.main-heading:hover {
+  color: blueviolet;
+  transition: 0.3s ease-in-out;
+}
+
 .hero-section p {
   font-size: 1.2rem;
   color: white;
   margin-bottom: 30px;
 }
 
- /*  services content */
 
+ /*  services content */
 
 .services-content {
   display: grid;
@@ -124,6 +128,21 @@
   gap: 2.3rem;
   margin-top: 4.1rem;
   align-items: center;
+}
+.service-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.service-heading span {
+  color: orange;
+}
+.service-heading:hover {
+  color: blueviolet;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
 }
 .row {
   background:#000;
