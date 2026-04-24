@@ -175,9 +175,15 @@
 }
 .plans{
   background:transparent;
-  border-radius: 27px;
-  border: 1px solid transparent;
-  box-shadow: 0 0 5px blueviolet;
-  padding: 20px;
-  transition: all 0.5s ease;
+  
+}
+.plans-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 2.3rem;
+  margin-top: 4.1rem;
+  align-items: center;
+}
+.box {
+  padding: 30px 30px 50px 30px;
 }
