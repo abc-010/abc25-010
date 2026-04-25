@@ -324,4 +324,23 @@
 .card:hover::after {
   opacity: 1;
 }
- 
+
+/* Style for the registration form */
+.register-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.register-form {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: blueviolet;
+  border-radius: 20px;
+  text-align: center;
+}
+
+  

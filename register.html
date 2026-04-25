@@ -7,13 +7,17 @@
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"  
        rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-
-
+    <style>
+      label {
+        display: inblock;
+        width: 120px;
+      
+      }
     </style>
 </head>
   
 <body>
+  <div class="body">
      <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -58,42 +62,45 @@
     </nav>
      </header>
 
-     <div class="main-content"> 
-      <fieldset class="field">
-        <legend>Registration</legend>
-        <label for="firstname">Firstname</label>
-        <input type="text" id="firstname" required
-         placeholder="Firstname" /><br><br>
+     <div class="register-content"> 
+        <div class="register-form">
+          <fieldset class="field">
+            <legend>Registration</legend>
+             <br><br>
+            <div class="inputbox">
+            <label for="firstname">Firstname</label>
+             <input type="text" id="firstname" required
+             placeholder="Firstname" /><br><br>
+             </div>
 
-    
-        <label for="surname">Surname</label>
-        <input type="text" id="surname" required 
-         placeholder="Surname" /><br><br>
+             <div class="inputbox">
+             <label for="surname">Surname</label>
+              <input type="text" id="surname" required 
+             placeholder="Surname" /><br><br>
+              </div>
 
-        <label for="gender">Gender</label>
-        <select id="gender" onchange="alert(this. value)">
-             <!--<option>Select</option>
-             <option>Female</option>
-             <option>Male</option>
-             -->
 
-             <option value="0">Select...</option>
-             <option value="F">Female</option>
-             <option value="M">Male</option>
-        </select><br><br>
+              <div class="inputbox">
+             <label for="email">Email</label>
+             <input type="email" id="email" required
+             placeholder="Email Address"/><br><br>
+             </div>
 
-          <label for="email">Email</label>
-          <input type="email" id="email" required
-          placeholder="Email Address"/><br><br>
-          
-          <label for="cellno">Cell Number:</label>
-          <input type ="tel" id="cellno" required 
-          placeholder="71000000"/><br><br>
+              <div class="inputbox">
+             <label for="cellno">Cell Number:</label>
+              <input type ="tel" id="cellno" required 
+              placeholder="71000000"/><br><br>
+              </div>
 
-          
-    </fieldset>
+              <button type="submit" class="btn btn-primary">Submit</button>
+
+           </fieldset>
+
+         </div>
+    </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   </div>
 </body>
 </html>
   
