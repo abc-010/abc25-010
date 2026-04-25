@@ -358,6 +358,8 @@
     box-shadow: 0 10px 15px red;
     transition: all 0.5s ease;
   }
+
+  /* Style for the footer */
 .footer {
   position: absolute;
   bottom: 5px;
@@ -371,3 +373,30 @@
   color: white;
 
 }
+
+
+.social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  margin: 0 8px;
+  border-radius: 50%;
+  background: #1a1a1a;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  background: blueviolet;
+  color: black;
+  transform: scale(1.1);
+}
+
+.footer p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
