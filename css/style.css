@@ -364,24 +364,10 @@
   width: 100%;
   padding:40px 0;
   background: transparent;
-}
-.footer-text {
   text-align: center;
+}
+.social {
   padding-bottom: 20px 0;
   color: white;
 
-}
-.footer-text a{
-  font-size: 1.2em;
-  color: rgba(0, 0, 255, 0.46);
-  width: auto;
-  height: auto;
-  line-height: 15px;
-  border-radius: 50%;
-  margin: 0 10px;
-  transition: 0.5s ease-in-out;
-}
-.footer-text a:hover {
-  color: white;
-  transform: scale(1.2);
 }
