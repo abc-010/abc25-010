@@ -45,6 +45,7 @@
 .nav-item a.active { 
   color: blueviolet;
   border-bottom: 4px solid blueviolet;
+  transform: scale(1.1);
 
 }
 
