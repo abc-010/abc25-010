@@ -52,7 +52,7 @@
 /*styling button*/
 
 .login-button {
-  background-color: #198754; /* Bootstrap green */
+  background-color: green; /* Bootstrap green */
   color: white;
   padding: 8px 20px;
   border-radius: 5px;
@@ -119,7 +119,7 @@
 
 }
 .main-heading:hover {
-  color: blueviolet;
+  color: orange;
   transition: 0.3s ease-in-out;
 
 }
@@ -152,7 +152,7 @@
   color: orange;
 }
 .service-heading:hover {
-  color: blueviolet;
+  color: orange;
   transform: scale(1.2);
   transition: 0.3s ease-in-out;
 }
@@ -160,7 +160,7 @@
   background:#000;
   border-radius: 27px;
   border: 1px solid transparent;
-  box-shadow: 0 0 5px blueviolet;
+  box-shadow: 0 0 10px blueviolet;
   padding: 20px;
   transition: all 0.5s ease;
   
@@ -175,7 +175,7 @@
 
 .row:hover {
   transform: translateY(-50px);
-  box-shadow: 0 10px 15px blueviolet;
+  box-shadow: 0 10px 15px red;
 }
 .row h4 {
   color: white;
@@ -203,7 +203,7 @@
 }
 .contact-heading:hover {
   transform: translateY(-10px);
-  color: blueviolet;
+  color: orange;
   transition: 0.3s ease-in-out;
 }
 .price-row {
@@ -225,7 +225,7 @@
 }
 .price-col:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 15px blueviolet;
+  box-shadow: 0 10px 15px red;
 }
 .price-col h3 {
   color: white;
@@ -262,7 +262,7 @@
   margin-bottom: 20px;  
 }
 .gallery-heading:hover {
-  color: blueviolet;
+  color: orange;
   transition: 0.3s ease-in-out;
   transform: scale(1.1);
 }
@@ -337,10 +337,24 @@
 .register-form {
   position: relative;
   width: 400px;
-  height: 450px;
-  background: blueviolet;
+  height: 420px;
+  background: #000;
   border-radius: 20px;
   text-align: center;
 }
-
-  
+.register-form .field {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px blueviolet;
+  padding: 20px;
+  border-radius: 20px;
+}
+.register-form .field legend {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+  .register-form :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px red;
+    transition: all 0.5s ease;
+  }
