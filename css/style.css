@@ -70,7 +70,7 @@
 /*styling button*/
 
 .login-button {
-  background-color: green; /* Bootstrap green */
+  background-color: blue;
   color: white;
   padding: 8px 20px;
   border-radius: 5px;
