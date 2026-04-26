@@ -354,9 +354,11 @@
 
 
 .register-form {
+
   position: relative;
   width: 400px;
-  height: 420px;
+  min-width: 200px;
+  height: auto;
   background: #000;
   border-radius: 20px;
   text-align: center;
