@@ -48,6 +48,14 @@
   transform: scale(1.1);
 
 }
+.navbar-toggler{
+     border:none;
+     font-size:1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus{
+     box-shadow:none;
+     outline:none;
+}
 
 /*styling button*/
 
@@ -69,16 +77,16 @@
 }
 
 
-.navbar-toggler{
-     border:none;
-     font-size:1.25rem;
+.navbar-toggler {
+     border: none;
+     font-size: 1rem;
 }
 
-.navbar-toggler:focus, .btn-close:focus{
-     box-shadow:none;
-     outline:none;
+.navbar-toggler:focus, .btn-close:focus {
+     box-shadow: none;
+     outline: none;
 }
-  
+ 
 
 .navbar-toggler {
   border: none;
@@ -87,6 +95,11 @@
 
 .navbar-toggler:focus, .btn-close:focus {
   box-shadow: none;
+  outline: none;
+}
+
+.navbar-toggler :hover, .btn-close :hover {
+  box-shadow: 0 0 5px blueviolet;
   outline: none;
 }
 
